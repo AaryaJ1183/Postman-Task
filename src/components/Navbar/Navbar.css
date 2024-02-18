@@ -1,0 +1,47 @@
+.navbar
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100px;
+    background: rgb(184, 68, 68);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7988329120710784) 60%, rgba(0,212,255,0) 100%); 
+
+}
+.nav-logo
+{
+  position: absolute;
+  top:-55px;
+  left:20px;
+  z-index:100;
+}
+.postman-logo
+{
+    height:120px;
+    z-index: 1000;
+}
+.nav-menu
+{
+    display: flex;
+    list-style:none;
+    gap:50px;
+    font-family: "Fredoka", sans-serif;
+    font-size:20px;
+    position: absolute;
+    right:50px;
+    top:5px;
+}
+.nav-subscribe
+{
+    border-radius: 400rem;
+    color:white;
+    background-color: rgb(219, 7, 0);
+    padding:12px;
+    position: relative;
+    bottom:10px;
+}
+.nav-subscribe:hover
+{
+    background-color: rgb(53, 53, 53);
+    cursor:pointer;
+}

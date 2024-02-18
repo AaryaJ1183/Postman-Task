@@ -1,0 +1,22 @@
+body{
+margin:0;
+padding:0;
+background-color: black;
+
+}
+
+.movie_item
+{
+    position: relative;
+    margin: 50px,0,0,200px;
+}
+.movie_backdrop
+{
+    width:50%;
+}
+.movie_name
+{
+    position:relative;
+    color:white;
+    font-size: 40px;
+}
